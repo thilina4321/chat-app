@@ -141,15 +141,16 @@ button:disabled {
 /* Message Composition Styles */
 
 .compose {
-    display: flex;
+    display: block;
     flex-shrink: 0;
     margin-top: 16px;
     padding: 24px;
 }
 
 .compose form {
-    display: flex;
-    flex-grow: 1;
+    display: block;
+    text-align: right;
+
     margin-right: 16px;
 }
 
