@@ -41,7 +41,7 @@ io.on("connection", (socket) => {
       io.to(user.room).emit("message", generateMessages(msg), user.name, user.id);
       callback(undefined, user.id)
     });
-
+ 
     
   socket.on("location", (coords,callback) => {
     io.emit(
